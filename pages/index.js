@@ -39,11 +39,13 @@ export default function HomePage(props) {
 
 const H1 = styled.h1`
   font-size: 2rem;
-  font-style: italic;
-  color: blueviolet;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #fff; //blueviolet;
 `;
 
 const Container = styled.div`
-  width: 100vw;
+  /* width: 95vw; */
   height: 85vh;
+  margin: 1em;
 `;
