@@ -42,10 +42,10 @@ const H1 = styled.h1`
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color: #fff; //blueviolet;
+  margin: 1em;
 `;
 
 const Container = styled.div`
   /* width: 95vw; */
   height: 85vh;
-  margin: 1em;
 `;

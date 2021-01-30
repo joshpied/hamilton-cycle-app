@@ -8,11 +8,15 @@ import useCafes from '../hooks/useCafes';
 
 const Checkboxes = styled.div`
   display: flex;
+  margin: 1em;
 `;
 
 const CheckboxContainer = styled.div`
   background-color: ${props => props.background || 'black'}; //#BF93E4;
   color: #fff;
+  margin: 0 1em 0 1em;
+  padding: 0.4em;
+  border-radius: 5px;
 `;
 
 const cafePointStyle = {
