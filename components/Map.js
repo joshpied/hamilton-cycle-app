@@ -169,7 +169,7 @@ export default function Map() {
           </div>
         ))}
       </ReactMapGL>
-      <div>{JSON.stringify(cafes.cafes)}</div>
+      {/* <div>{JSON.stringify(cafes.cafes)}</div> */}
     </>
   );
 }
